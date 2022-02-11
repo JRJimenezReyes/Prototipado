@@ -451,16 +451,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!108 &149727808 stripped
-Light:
-  m_CorrespondingSourceObject: {fileID: 3483369077252043189, guid: 1e9e4926a66280c20b583cd76787bfd3, type: 3}
-  m_PrefabInstance: {fileID: 1276578958}
-  m_PrefabAsset: {fileID: 0}
---- !u!108 &171735728 stripped
-Light:
-  m_CorrespondingSourceObject: {fileID: 3483369077252043189, guid: 1e9e4926a66280c20b583cd76787bfd3, type: 3}
-  m_PrefabInstance: {fileID: 3134702782306000355}
-  m_PrefabAsset: {fileID: 0}
 --- !u!43 &201112786
 Mesh:
   m_ObjectHideFlags: 0
@@ -733,7 +723,7 @@ GameObject:
   - component: {fileID: 291858786}
   - component: {fileID: 291858785}
   - component: {fileID: 291858784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1056,7 +1046,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291858783}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24, y: 0, z: 17}
+  m_LocalPosition: {x: 24, y: 0, z: 25.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2230,7 +2220,6 @@ GameObject:
   m_Component:
   - component: {fileID: 480200965}
   - component: {fileID: 480200964}
-  - component: {fileID: 480200966}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -2247,8 +2236,8 @@ Camera:
   m_GameObject: {fileID: 480200962}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.38042897, g: 0.8384713, b: 0.9716981, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2296,23 +2285,6 @@ Transform:
   m_Father: {fileID: 1767030570}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &480200966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480200962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32b862b370955095eaf2d97040e5c192, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Luces:
-  - {fileID: 222224942}
-  - {fileID: 1188304103}
-  - {fileID: 171735728}
-  - {fileID: 149727808}
 --- !u!1 &505491375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2325,7 +2297,7 @@ GameObject:
   - component: {fileID: 505491378}
   - component: {fileID: 505491377}
   m_Layer: 5
-  m_Name: RawImage
+  m_Name: Minimapa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6615,11 +6587,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!108 &1188304103 stripped
-Light:
-  m_CorrespondingSourceObject: {fileID: 3483369077252043189, guid: 1e9e4926a66280c20b583cd76787bfd3, type: 3}
-  m_PrefabInstance: {fileID: 1028217258}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1201153535
 GameObject:
   m_ObjectHideFlags: 0
@@ -8522,7 +8489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
