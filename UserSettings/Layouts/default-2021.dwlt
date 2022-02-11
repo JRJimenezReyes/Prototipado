@@ -67,7 +67,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 415
-    width: 379
+    width: 327
     height: 209
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -93,7 +93,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 624
-    width: 379
+    width: 327
     height: 317
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -120,14 +120,14 @@ MonoBehaviour:
   - {fileID: 4}
   m_Position:
     serializedVersion: 2
-    x: 1469
+    x: 1521
     y: 0
-    width: 379
+    width: 327
     height: 941
   m_MinSize: {x: 100, y: 300}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 177
+  controlID: 180
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 379
+    width: 327
     height: 415
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
@@ -269,7 +269,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 153
     y: 0
-    width: 1316
+    width: 1368
     height: 941
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -300,9 +300,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1541
+    x: 1593
     y: 119
-    width: 378
+    width: 326
     height: 394
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -316,8 +316,8 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 0
-  changeTab: 5
-  activeTab: 5
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -479,7 +479,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 0
+          checkState: 1
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -497,7 +497,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 0
+          checkState: 1
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -534,6 +534,24 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: .gitignore
+        label: .gitignore
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .gitignore
+          fullPath: /home/joseramon/Unity/Proyectos/Prototipado/.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: UserSettings
         label: UserSettings
         level: 0
@@ -543,7 +561,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -561,7 +579,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -579,7 +597,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: UserSettings/Layouts/default-2021.dwlt
@@ -589,45 +607,105 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 3
       selectedNode:
-        path: 
-        label: 
-        level: 0
+        path: UserSettings/Layouts/default-2021.dwlt
+        label: default-2021.dwlt
+        level: 2
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
+        treeIsCheckable: 1
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
+          path: UserSettings/Layouts/default-2021.dwlt
+          fullPath: /home/joseramon/Unity/Proyectos/Prototipado/UserSettings/Layouts/default-2021.dwlt
+          projectPath: UserSettings/Layouts/default-2021.dwlt
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
+          workTreeStatus: 3
     gitStatusEntries:
+    - path: .gitignore
+      fullPath: /home/joseramon/Unity/Proyectos/Prototipado/.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: UserSettings/Layouts/default-2021.dwlt
       fullPath: /home/joseramon/Unity/Proyectos/Prototipado/UserSettings/Layouts/default-2021.dwlt
       projectPath: UserSettings/Layouts/default-2021.dwlt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 1 changed file
+    changedFilesText: 2 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-02-11T16:28:21.273+01:00
+      updatedTimeString: 2022-02-11T16:51:20.611+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-02-11T16:30:46.928+01:00
+      updatedTimeString: 2022-02-11T17:03:18.901+01:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2022-02-11T16:30:47.536+01:00
+      updatedTimeString: 2022-02-11T16:51:20.757+01:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 06dba5fb73fe9c100ecab71cbe81f217d2204e0c
+      mergeA: 
+      mergeB: 
+      authorName: Jose Ramon Jimenez Reyes
+      authorEmail: joseramon.jimenez@iesalandalus.org
+      commitEmail: joseramon.jimenez@iesalandalus.org
+      commitName: Jose Ramon Jimenez Reyes
+      summary: Mensaje consola
+      description: 
+      timeString: 2022-02-11T16:48:23.000+01:00
+      commitTimeString: 2022-02-11T16:48:23.000+01:00
+      changes:
+      - path: Assets/Scripts/Prueba.cs
+        fullPath: /home/joseramon/Unity/Proyectos/Prototipado/Assets/Scripts/Prueba.cs
+        projectPath: Assets/Scripts/Prueba.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 3628f48c55bc1109d0341a51fabcdcdea0a39ba5
+      mergeA: 
+      mergeB: 
+      authorName: Jose Ramon Jimenez Reyes
+      authorEmail: joseramon.jimenez@iesalandalus.org
+      commitEmail: joseramon.jimenez@iesalandalus.org
+      commitName: Jose Ramon Jimenez Reyes
+      summary: Scripts prueba
+      description: 
+      timeString: 2022-02-11T16:44:35.000+01:00
+      commitTimeString: 2022-02-11T16:44:35.000+01:00
+      changes:
+      - path: Assets/Scripts.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Prototipado/Assets/Scripts.meta
+        projectPath: Assets/Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Prueba.cs
+        fullPath: /home/joseramon/Unity/Proyectos/Prototipado/Assets/Scripts/Prueba.cs
+        projectPath: Assets/Scripts/Prueba.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Prueba.cs.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Prototipado/Assets/Scripts/Prueba.cs.meta
+        projectPath: Assets/Scripts/Prueba.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Layouts/default-2021.dwlt
+        fullPath: /home/joseramon/Unity/Proyectos/Prototipado/UserSettings/Layouts/default-2021.dwlt
+        projectPath: UserSettings/Layouts/default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: 7b89593f2e41d9ec674c2f479ad79de1e7936ac9
       mergeA: 
       mergeB: 
@@ -1304,14 +1382,68 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2022-02-11T16:30:42.362+01:00
+      updatedTimeString: 2022-02-11T16:49:43.329+01:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2022-02-11T16:49:48.195+01:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 06dba5fb73fe9c100ecab71cbe81f217d2204e0c
+        mergeA: 
+        mergeB: 
+        authorName: Jose Ramon Jimenez Reyes
+        authorEmail: joseramon.jimenez@iesalandalus.org
+        commitEmail: joseramon.jimenez@iesalandalus.org
+        commitName: Jose Ramon Jimenez Reyes
+        summary: Mensaje consola
+        description: 
+        timeString: 2022-02-11T16:48:23.000+01:00
+        commitTimeString: 2022-02-11T16:48:23.000+01:00
+        changes:
+        - path: Assets/Scripts/Prueba.cs
+          fullPath: /home/joseramon/Unity/Proyectos/Prototipado/Assets/Scripts/Prueba.cs
+          projectPath: Assets/Scripts/Prueba.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 3628f48c55bc1109d0341a51fabcdcdea0a39ba5
+        mergeA: 
+        mergeB: 
+        authorName: Jose Ramon Jimenez Reyes
+        authorEmail: joseramon.jimenez@iesalandalus.org
+        commitEmail: joseramon.jimenez@iesalandalus.org
+        commitName: Jose Ramon Jimenez Reyes
+        summary: Scripts prueba
+        description: 
+        timeString: 2022-02-11T16:44:35.000+01:00
+        commitTimeString: 2022-02-11T16:44:35.000+01:00
+        changes:
+        - path: Assets/Scripts.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Prototipado/Assets/Scripts.meta
+          projectPath: Assets/Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/Prueba.cs
+          fullPath: /home/joseramon/Unity/Proyectos/Prototipado/Assets/Scripts/Prueba.cs
+          projectPath: Assets/Scripts/Prueba.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/Prueba.cs.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Prototipado/Assets/Scripts/Prueba.cs.meta
+          projectPath: Assets/Scripts/Prueba.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/Layouts/default-2021.dwlt
+          fullPath: /home/joseramon/Unity/Proyectos/Prototipado/UserSettings/Layouts/default-2021.dwlt
+          projectPath: UserSettings/Layouts/default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: 7b89593f2e41d9ec674c2f479ad79de1e7936ac9
         mergeA: 
         mergeB: 
@@ -2049,7 +2181,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2022-02-11T16:28:21.273+01:00
+      updatedTimeString: 2022-02-11T16:39:43.191+01:00
       cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: https://github.com/JRJimenezReyes/Prototipado.git
@@ -2063,7 +2195,7 @@ MonoBehaviour:
       newGitEmail: joseramon.jimenez@iesalandalus.org
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2022-02-11T16:30:53.680+01:00
+        updatedTimeString: 2022-02-11T16:39:43.706+01:00
         cacheType: 8
     webTimeout: 3000
     gitTimeout: 5000
@@ -2124,7 +2256,7 @@ MonoBehaviour:
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
-  isTrackingRemoteBranch: 0
+  isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
     m_Image: {fileID: 0}
@@ -2134,13 +2266,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-02-11T16:28:21.273+01:00
+    updatedTimeString: 2022-02-11T16:51:20.611+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    updatedTimeString: 2022-02-11T16:51:20.753+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-02-11T16:30:46.928+01:00
+    updatedTimeString: 2022-02-11T17:03:18.901+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2163,7 +2295,7 @@ MonoBehaviour:
   appManagerProgressValue: 0.5
   appManagerProgressMessage: Setting up git...
   connections: []
-  primaryConnectionUsername: 
+  primaryConnectionUsername: JRJimenezReyes
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2212,9 +2344,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1541
+    x: 1593
     y: 534
-    width: 378
+    width: 326
     height: 188
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2233,22 +2365,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/joseramon/Unity/Proyectos/Prototipado
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 12}
-    m_SelectedIDs: 66510000
-    m_LastClickedID: 20838
-    m_ExpandedIDs: 000000000251000000ca9a3b
+    scrollPos: {x: 0, y: 44}
+    m_SelectedIDs: 74510000
+    m_LastClickedID: 20852
+    m_ExpandedIDs: 000000000851000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2276,7 +2408,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000002510000
+    m_ExpandedIDs: 0000000008510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2366,7 +2498,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 20880
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -2393,9 +2525,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1541
+    x: 1593
     y: 743
-    width: 378
+    width: 326
     height: 296
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2452,7 +2584,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 225
     y: 119
-    width: 1314
+    width: 1366
     height: 920
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
